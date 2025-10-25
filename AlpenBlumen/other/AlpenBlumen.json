@@ -1,0 +1,413 @@
+[
+    {
+        "english": {
+            "name": "Edelweiss",
+            "description": "Edelweiss is a small perennial plant with woolly white star-shaped bracts surrounding tiny yellow flowers. It grows in rocky limestone areas of the Alps and is a symbol of alpine flora."
+        },
+        "german": {
+            "name": "Edelweiß",
+            "description": "Das Edelweiß ist eine kleine, ausdauernde Pflanze mit wollig weißen, sternförmigen Hüllblättern, die winzige gelbe Blüten umgeben. Sie wächst auf felsigen Kalkhängen der Alpen und ist ein Symbol der Alpenflora."
+        },
+        "french": {
+            "name": "Édelweiss",
+            "description": "L'Édelweiss est une petite plante vivace aux bractées étoilées blanches et laineuses entourant de minuscules fleurs jaunes. Elle pousse sur les rochers calcaires des Alpes et symbolise la flore alpine."
+        },
+        "latin": "Leontopodium alpinum",
+        "family": "Asteraceae",
+        "genus": "Leontopodium"
+    },
+    {
+        "english": {
+            "name": "Alpine Columbine",
+            "description": "The Alpine Columbine is a perennial with striking blue to violet nodding flowers. It grows in alpine meadows and rocky slopes, preferring calcareous soils."
+        },
+        "german": {
+            "name": "Alpen-Akelei",
+            "description": "Die Alpen-Akelei ist eine ausdauernde Pflanze mit auffälligen blau bis violett nickenden Blüten. Sie wächst in alpinen Wiesen und auf felsigen Hängen, bevorzugt kalkhaltige Böden."
+        },
+        "french": {
+            "name": "Ancolie des Alpes",
+            "description": "L'Ancolie des Alpes est une plante vivace aux fleurs pendantes bleues à violettes. Elle pousse dans les prairies alpines et sur les pentes rocheuses, appréciant les sols calcaires."
+        },
+        "latin": "Aquilegia alpina",
+        "family": "Ranunculaceae",
+        "genus": "Aquilegia"
+    },
+    {
+        "english": {
+            "name": "Spring Gentian",
+            "description": "Spring Gentian is a tiny alpine perennial with intensely blue, star-shaped flowers. It blooms in spring and early summer on alpine pastures."
+        },
+        "german": {
+            "name": "Frühlings-Enzian",
+            "description": "Der Frühlings-Enzian ist eine kleine, ausdauernde Alpenpflanze mit intensiv blauen, sternförmigen Blüten. Er blüht im Frühling und Frühsommer auf alpinen Matten."
+        },
+        "french": {
+            "name": "Gentiane printanière",
+            "description": "La Gentiane printanière est une petite plante vivace alpine portant des fleurs étoilées d'un bleu intense. Elle fleurit au printemps et au début de l'été dans les pâturages alpins."
+        },
+        "latin": "Gentiana verna",
+        "family": "Gentianaceae",
+        "genus": "Gentiana"
+    },
+    {
+        "english": {
+            "name": "Stemless Gentian",
+            "description": "The Stemless Gentian is a low-growing plant forming rosettes with large trumpet-shaped deep blue flowers. It thrives in alpine meadows and rocky soils."
+        },
+        "german": {
+            "name": "Stängelloser Enzian",
+            "description": "Der Stängellose Enzian ist eine niedrig wachsende Pflanze mit Rosetten und großen, trompetenförmigen, tiefblauen Blüten. Er gedeiht in alpinen Wiesen und steinigen Böden."
+        },
+        "french": {
+            "name": "Gentiane acaule",
+            "description": "La Gentiane acaule est une plante basse en rosette portant de grandes fleurs bleu profond en forme de trompette. Elle pousse dans les prairies alpines et les sols rocheux."
+        },
+        "latin": "Gentiana acaulis",
+        "family": "Gentianaceae",
+        "genus": "Gentiana"
+       
+    },
+    {
+        "english": {
+            "name": "Auricula",
+            "description": "Auricula is a perennial primrose with leathery rosettes and yellow flowers. It is native to alpine limestone cliffs and grassy slopes."
+        },
+        "german": {
+            "name": "Aurikel",
+            "description": "Die Aurikel ist eine ausdauernde Primel mit lederartigen Rosetten und gelben Blüten. Sie wächst an kalkhaltigen Felsen und alpinen Hängen."
+        },
+        "french": {
+            "name": "Primevère oreille-d’ours",
+            "description": "La Primevère oreille-d’ours est une plante vivace aux rosettes coriaces et aux fleurs jaunes. Elle pousse sur les falaises calcaires et les pentes alpines."
+        },
+        "latin": "Primula auricula",
+        "family": "Primulaceae",
+        "genus": "Primula"
+        
+    },
+    {
+        "english": {
+            "name": "Michel’s Daisy",
+            "description": "Michel’s Daisy is a perennial alpine plant with small white to pale pink daisy-like flower heads. It grows in rocky pastures and meadows in southern Europe. Its low growth and bright blooms make it characteristic of mountain flora."
+        },
+        "german": {
+            "name": "Michels Gänseblümchen",
+            "description": "Michels Gänseblümchen ist eine ausdauernde Alpenpflanze mit kleinen weiß bis rosafarbenen, gänseblümchenähnlichen Blütenköpfen. Sie wächst auf felsigen Weiden und Wiesen in Südeuropa. Ihr niedriger Wuchs und die hellen Blüten machen sie typisch für die Alpenflora."
+        },
+        "french": {
+            "name": "Pâquerette de Michel",
+            "description": "La Pâquerette de Michel est une plante alpine vivace portant de petites inflorescences blanches à rosées en forme de marguerite. Elle pousse dans les pâturages et prairies rocheuses d'Europe méridionale. Son port bas et ses fleurs vives la rendent caractéristique de la flore alpine."
+        },
+        "latin": "Bellidiastrum michelii",
+        "family": "Asteraceae",
+        "genus": "Bellidiastrum"
+    },
+    {
+        "english": {
+            "name": "Foxtail Betony",
+            "description": "Foxtail Betony is a perennial herb with upright stems and dense spikes of purple flowers. It grows in alpine and subalpine meadows and rocky slopes."
+        },
+        "german": {
+            "name": "Fuchsenschwanz-Betonie",
+            "description": "Die Fuchsenschwanz-Betonie ist eine ausdauernde Pflanze mit aufrechten Stängeln und dichten Ähren purpurner Blüten. Sie wächst in alpinen und subalpinen Wiesen und auf felsigen Hängen."
+        },
+        "french": {
+            "name": "Bétoine queue-de-renard",
+            "description": "La Bétoine queue-de-renard est une herbe vivace à tiges dressées portant des épis denses de fleurs pourpres. Elle pousse dans les prairies alpines et subalpines et sur les pentes rocheuses."
+        },
+        "latin": "Stachys alopecuros",
+        "family": "Lamiaceae",
+        "genus": "Stachys"
+    },
+    {
+        "english": {
+            "name": "Alpine Aster",
+            "description": "The Alpine Aster is a perennial herb with vibrant purple to blue flowers. It thrives in rocky alpine meadows and is a common sight in the Swiss Alps during late summer."
+        },
+        "german": {
+            "name": "Alpen-Aster",
+            "description": "Die Alpen-Aster ist ein ausdauerndes Kraut mit lebendigen violetten bis blauen Blüten. Sie gedeiht in felsigen alpinen Wiesen und ist im Spätsommer in den Schweizer Alpen häufig zu sehen."
+        },
+        "french": {
+            "name": "Aster des Alpes",
+            "description": "L'Aster des Alpes est une plante vivace avec des fleurs violettes à bleues vives. Elle prospère dans les prairies alpines rocheuses et est courante dans les Alpes suisses à la fin de l'été."
+        },
+        "latin": "Aster alpinus",
+        "family": "Asteraceae",
+        "genus": "Aster"
+    },
+    {
+        "english": {
+            "name": "Mountain Avens",
+            "description": "Mountain Avens is a low-growing shrub with white to pinkish flowers. It commonly grows in rocky alpine habitats and is known for its resilience in harsh conditions."
+        },
+        "german": {
+            "name": "Alpen-Rose",
+            "description": "Die Alpen-Rose ist ein niedrig wachsender Strauch mit weißen bis rosafarbenen Blüten. Sie wächst häufig in felsigen alpinen Lebensräumen und ist für ihre Widerstandsfähigkeit in rauen Bedingungen bekannt."
+        },
+        "french": {
+            "name": "Rosier des Alpes",
+            "description": "Le Rosier des Alpes est un arbuste bas avec des fleurs blanches à rosées. Il pousse couramment dans les habitats alpins rocheux et est connu pour sa résilience dans des conditions difficiles."
+        },
+        "latin": "Dryas octopetala",
+        "family": "Rosaceae",
+        "genus": "Dryas"
+    },
+    {
+        "english": {
+            "name": "Bird's-eye Primrose",
+            "description": "Bird's-eye Primrose is a perennial plant with pale yellow flowers featuring a darker central eye. It is found in alpine meadows and is a favorite among hikers for its delicate beauty."
+        },
+        "german": {
+            "name": "Vogelaugen-Primel",
+            "description": "Die Vogelaugen-Primel ist eine ausdauernde Pflanze mit blassgelben Blüten, die ein dunkleres Zentrum aufweisen. Sie ist in alpinen Wiesen zu finden und bei Wanderern für ihre zarte Schönheit beliebt."
+        },
+        "french": {
+            "name": "Primevère à œil d'oiseau",
+            "description": "La Primevère à œil d'oiseau est une plante vivace avec des fleurs jaunes pâles présentant un centre plus foncé. Elle se trouve dans les prairies alpines et est appréciée des randonneurs pour sa beauté délicate."
+        },
+        "latin": "Primula farinosa",
+        "family": "Primulaceae",
+        "genus": "Primula"
+    },
+    {
+        "english": {
+            "name": "Alpine Snowbell",
+            "description": "Alpine Snowbell is a small perennial with bell-shaped pink to white flowers. It blooms in early summer and is commonly found in moist alpine meadows."
+        },
+        "german": {
+            "name": "Alpen-Schneeglöckchen",
+            "description": "Das Alpen-Schneeglöckchen ist eine kleine, ausdauernde Pflanze mit glockenförmigen, rosa bis weißen Blüten. Es blüht im frühen Sommer und ist häufig in feuchten alpinen Wiesen zu finden."
+        },
+        "french": {
+            "name": "Perce-neige des Alpes",
+            "description": "Le Perce-neige des Alpes est une petite plante vivace avec des fleurs en forme de cloche, roses à blanches. Elle fleurit au début de l'été et se trouve couramment dans les prairies alpines humides."
+        },
+        "latin": "Soldanella alpina",
+        "family": "Primulaceae",
+        "genus": "Soldanella"
+    },
+    {
+        "english": {
+            "name": "Lady's Mantle",
+            "description": "Lady's Mantle is a perennial herb with soft, rounded leaves and small yellow-green flowers. It grows in a variety of habitats, including alpine meadows and forest edges."
+        },
+        "german": {
+            "name": "Frauenmantel",
+            "description": "Der Frauenmantel ist ein ausdauerndes Kraut mit weichen, abgerundeten Blättern und kleinen gelb-grünen Blüten. Er wächst in verschiedenen Lebensräumen, einschließlich alpiner Wiesen und Waldränder."
+        },
+        "french": {
+            "name": "Alchémille",
+            "description": "L'Alchémille est une plante vivace avec des feuilles douces et arrondies et de petites fleurs jaune-vert. Elle pousse dans divers habitats, y compris les prairies alpines et les bords de forêts."
+        },
+        "latin": "Alchemilla vulgaris",
+        "family": "Rosaceae",
+        "genus": "Alchemilla"
+    },
+    {
+        "english": {
+            "name": "Goatsbeard",
+            "description": "Goatsbeard is a perennial plant with feathery white flowers resembling a goat's beard. It is commonly found in moist alpine meadows and is known for its tall, graceful appearance."
+        },
+        "german": {
+            "name": "Ziegenbart",
+            "description": "Der Ziegenbart ist eine ausdauernde Pflanze mit federartigen weißen Blüten, die einem Ziegenbart ähneln. Sie kommt häufig in feuchten alpinen Wiesen vor und ist für ihr hohes, anmutiges Erscheinungsbild bekannt."
+        },
+        "french": {
+            "name": "Barbe de chèvre",
+            "description": "La Barbe de chèvre est une plante vivace avec des fleurs blanches duveteuses ressemblant à une barbe de chèvre. On la trouve couramment dans les prairies alpines humides et est connue pour sa silhouette élancée et gracieuse."
+        },
+        "latin": "Aruncus dioicus",
+        "family": "Rosaceae",
+        "genus": "Aruncus"
+    },
+      {
+        "english": {
+          "name": "Alpine Bellflower",
+          "description": "The Alpine Bellflower is a perennial with nodding blue to violet flowers. It grows in rocky alpine slopes and meadows, often on calcareous soils."
+        },
+        "german": {
+          "name": "Alpen-Glockenblume",
+          "description": "Die Alpen-Glockenblume ist eine ausdauernde Pflanze mit nickenden blau-violetten Blüten. Sie wächst auf felsigen alpinen Hängen und Wiesen, häufig auf kalkhaltigen Böden."
+        },
+        "french": {
+          "name": "Campanule des Alpes",
+          "description": "La Campanule des Alpes est une plante vivace aux fleurs pendantes bleu violet. Elle pousse sur les pentes et prairies alpines rocheuses, souvent sur sols calcaires."
+        },
+        "latin": "Campanula cochleariifolia",
+        "family": "Campanulaceae",
+        "genus": "Campanula"
+      },
+      {
+        "english": {
+          "name": "Alpine Forget-me-not",
+          "description": "A small perennial with sky-blue flowers and yellow centers. It thrives in alpine meadows and rocky areas."
+        },
+        "german": {
+          "name": "Alpen-Vergissmeinnicht",
+          "description": "Eine kleine ausdauernde Pflanze mit himmelblauen Blüten und gelben Zentren. Sie gedeiht in alpinen Wiesen und felsigen Gebieten."
+        },
+        "french": {
+          "name": "Myosotis des Alpes",
+          "description": "Une petite plante vivace avec des fleurs bleu ciel et des centres jaunes. Elle prospère dans les prairies alpines et les zones rocheuses."
+        },
+        "latin": "Myosotis alpestris",
+        "family": "Boraginaceae",
+        "genus": "Myosotis"
+      },
+      {
+        "english": {
+          "name": "Alpine Bistort",
+          "description": "A perennial herb with pinkish spikes of flowers. It grows in moist alpine meadows and pastures, often at high elevations."
+        },
+        "german": {
+          "name": "Alpen-Knöterich",
+          "description": "Ein ausdauerndes Kraut mit rosafarbenen Blütentrauben. Es wächst in feuchten alpinen Wiesen und Weiden, oft in großer Höhe."
+        },
+        "french": {
+          "name": "Renouée vivipare",
+          "description": "Une plante vivace avec des épis de fleurs rosées. Elle pousse dans les prairies et pâturages alpins humides, souvent en altitude."
+        },
+        "latin": "Bistorta vivipara",
+        "family": "Polygonaceae",
+        "genus": "Bistorta"
+      },
+      {
+        "english": {
+          "name": "Alpine Linum",
+          "description": "A small perennial with bright blue flowers. It grows on sunny rocky slopes and alpine meadows."
+        },
+        "german": {
+          "name": "Alpen-Lein",
+          "description": "Eine kleine ausdauernde Pflanze mit leuchtend blauen Blüten. Sie wächst auf sonnigen felsigen Hängen und alpinen Wiesen."
+        },
+        "french": {
+          "name": "Lin des Alpes",
+          "description": "Une petite plante vivace aux fleurs bleu vif. Elle pousse sur des pentes rocheuses ensoleillées et dans les prairies alpines."
+        },
+        "latin": "Linum alpinum",
+        "family": "Linaceae",
+        "genus": "Linum"
+      },
+      {
+        "english": {
+          "name": "Alpine Sow-thistle",
+          "description": "A perennial with yellow composite flowers. It grows in alpine meadows and rocky pastures, often forming dense mats."
+        },
+        "german": {
+          "name": "Alpen-Sow-thistle",
+          "description": "Eine ausdauernde Pflanze mit gelben Korbblüten. Sie wächst in alpinen Wiesen und felsigen Weiden und bildet oft dichte Matten."
+        },
+        "french": {
+          "name": "Sow-thistle des Alpes",
+          "description": "Une plante vivace avec des fleurs composées jaunes. Elle pousse dans les prairies alpines et les pâturages rocheux, formant souvent des tapis denses."
+        },
+        "latin": "Buphthalmum salicifolium",
+        "family": "Asteraceae",
+        "genus": "Buphthalmum"
+      },
+      {
+        "english": {
+          "name": "Alpine Bupleurum",
+          "description": "A small perennial herb with yellowish-green umbels. It grows on sunny rocky slopes and alpine meadows."
+        },
+        "german": {
+          "name": "Alpen-Bupleurum",
+          "description": "Ein kleines ausdauerndes Kraut mit gelblich-grünen Dolden. Es wächst auf sonnigen felsigen Hängen und alpinen Wiesen."
+        },
+        "french": {
+          "name": "Bupleurum des Alpes",
+          "description": "Une petite plante vivace avec des ombelles jaune-vert. Elle pousse sur les pentes rocheuses ensoleillées et dans les prairies alpines."
+        },
+        "latin": "Bupleurum petraeum",
+        "family": "Apiaceae",
+        "genus": "Bupleurum"
+      },
+        {
+          "english": {
+            "name": "Round-leaved Sibbaldia",
+            "description": "Round-leaved Sibbaldia is a low-growing alpine perennial with tiny yellow flowers. It thrives on rocky alpine slopes."
+          },
+          "german": {
+            "name": "Rundblättriges Sibbaldia",
+            "description": "Das Rundblättrige Sibbaldia ist eine niedrig wachsende Alpenpflanze mit winzigen gelben Blüten. Es gedeiht auf felsigen alpinen Hängen."
+          },
+          "french": {
+            "name": "Sibbaldia à feuilles rondes",
+            "description": "Le Sibbaldia à feuilles rondes est une plante vivace alpine basse avec de petites fleurs jaunes. Il prospère sur les pentes rocheuses alpines."
+          },
+          "latin": "Sibbaldia procumbens",
+          "family": "Rosaceae",
+          "genus": "Sibbaldia"
+        },
+        {
+          "english": {
+            "name": "Alpine Buttercup",
+            "description": "Alpine Buttercup is a small perennial with bright yellow flowers. It grows in high alpine meadows and rocky crevices."
+          },
+          "german": {
+            "name": "Alpen-Hahnenfuß",
+            "description": "Der Alpen-Hahnenfuß ist eine kleine ausdauernde Pflanze mit leuchtend gelben Blüten. Sie wächst in hochalpinen Wiesen und felsigen Spalten."
+          },
+          "french": {
+            "name": "Renoncule des Alpes",
+            "description": "La Renoncule des Alpes est une petite plante vivace aux fleurs jaune vif. Elle pousse dans les prairies alpines élevées et les crevasses rocheuses."
+          },
+          "latin": "Ranunculus glacialis",
+          "family": "Ranunculaceae",
+          "genus": "Ranunculus"
+        },
+        {
+          "english": {
+            "name": "Yellow Gentian",
+            "description": "Yellow Gentian is a tall perennial with yellow trumpet-shaped flowers. It grows in alpine meadows and is a classic medicinal plant."
+          },
+          "german": {
+            "name": "Gelber Enzian",
+            "description": "Der Gelbe Enzian ist eine hochwachsende ausdauernde Pflanze mit gelben trompetenförmigen Blüten. Er wächst in alpinen Wiesen und ist eine klassische Heilpflanze."
+          },
+          "french": {
+            "name": "Gentiane jaune",
+            "description": "La Gentiane jaune est une plante vivace de grande taille avec des fleurs jaunes en forme de trompette. Elle pousse dans les prairies alpines et est une plante médicinale classique."
+          },
+          "latin": "Gentiana lutea",
+          "family": "Gentianaceae",
+          "genus": "Gentiana"
+        },
+        {
+          "english": {
+            "name": "Mountain Centaury",
+            "description": "Mountain Centaury is a perennial with pink to reddish flowers. It is common on alpine meadows and rocky slopes."
+          },
+          "german": {
+            "name": "Berg-Flockenblume",
+            "description": "Die Berg-Flockenblume ist eine ausdauernde Pflanze mit rosa bis rötlichen Blüten. Sie ist häufig auf alpinen Wiesen und felsigen Hängen."
+          },
+          "french": {
+            "name": "Centaurée des montagnes",
+            "description": "La Centaurée des montagnes est une plante vivace avec des fleurs rose à rouge. Elle est commune dans les prairies alpines et les pentes rocheuses."
+          },
+          "latin": "Centaurea montana",
+          "family": "Asteraceae",
+          "genus": "Centaurea"
+        },
+        {
+          "english": {
+            "name": "Alpine Bellflower",
+            "description": "A perennial with clusters of pale blue flowers. It grows in alpine meadows and rocky areas."
+          },
+          "german": {
+            "name": "Alpen-Glockenblume",
+            "description": "Eine ausdauernde Pflanze mit Trauben blassblauer Blüten. Sie wächst in alpinen Wiesen und felsigen Gebieten."
+          },
+          "french": {
+            "name": "Campanule des Alpes",
+            "description": "Une plante vivace avec des grappes de fleurs bleu pâle. Elle pousse dans les prairies alpines et les zones rocheuses."
+          },
+          "latin": "Campanula alpina",
+          "family": "Campanulaceae",
+          "genus": "Campanula"
+        }
+]
+ 
