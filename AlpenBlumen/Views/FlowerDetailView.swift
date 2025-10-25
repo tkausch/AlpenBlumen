@@ -54,20 +54,28 @@ struct FlowerDetailView: View {
                 .shadow(color: Color.black.opacity(0.03), radius: 4, x: 0, y: 2)
                 
                 // Description
-                VStack(spacing: 16)  {
-                    Text(flower.localizedDescription(languageSettings.current))
-                        .foregroundColor(.primaryText)
-                        .lineSpacing(4)
+                if !descriptionText.isEmpty {
+                    VStack(spacing: 16)  {
+                        Text(descriptionText)
+                            .foregroundColor(.primaryText)
+                            .lineSpacing(4)
+                    }
+                    .padding()
+                    .background(Color.cardBackground)
+                    .cornerRadius(12)
+                    .shadow(color: Color.black.opacity(0.03), radius: 4, x: 0, y: 2)
                 }
-                .padding()
-                .background(Color.cardBackground)
-                .cornerRadius(12)
-                .shadow(color: Color.black.opacity(0.03), radius: 4, x: 0, y: 2)
                 
             }
             .padding()
             .navigationTitle(flower.localizedName(languageSettings.current))
             .navigationBarTitleDisplayMode(.inline)
         }
+    }
+}
+
+private extension FlowerDetailView {
+    var descriptionText: String {
+        flower.localizedDescription(languageSettings.current).trimmingCharacters(in: .whitespacesAndNewlines)
     }
 }
