@@ -42,27 +42,41 @@ Language switching is handled by an environment-scoped `LanguageSettings` object
 
 ## Data Tooling
 
-Python helpers live in `scripts/` to streamline catalog upkeep. Ensure Python 3.10+ is available.
+Python helpers live in `scripts/` to streamline catalog upkeep. Ensure Python 3.10+ is available and that you have network access for Wikimedia requests.
 
-- `scripts/add_flowers.py` fetches English, German, and French Wikipedia summaries plus taxonomic metadata for given Latin names and appends them to `AlpenBlumen/other/AlpenBlumen.json`.
+**1. Harvest Hartinger plates**
+- `scripts/hartinger_images.py` queries Wikimedia Commons for Anton Hartinger plates and writes the metadata to `scripts/data/hartinger.json`.
   ```bash
-  # Preview entries without writing to disk
-  python3 scripts/add_flowers.py --dry-run "Androsace alpina"
-
-  # Append multiple species to the catalog
-  python3 scripts/add_flowers.py "Androsace alpina" "Gentiana verna"
+  python3 scripts/hartinger_images.py
+  # or target a custom file
+  python3 scripts/hartinger_images.py --output data/custom_hartinger.json
   ```
 
-- `scripts/flower_image.py` downloads Anton Hartinger plates from Wikimedia Commons and prepares `.imageset` folders inside the asset catalog.
+**2. Build flower descriptions**
+- `scripts/flower_wiki.py --from-hartinger` reads the Hartinger dataset, fetches multilingual Wikipedia summaries plus taxonomic data, and stores the result in `scripts/data/AlpenBlumen.json` (override with `--output` if needed).
   ```bash
-  # Save the default asset into Assets.xcassets
-  python3 scripts/flower_image.py "Androsace alpina"
-
-  # Force an overwrite or target a custom asset directory
-  python3 scripts/flower_image.py --force --assets-dir AlpenBlumen/assets/Assets.xcassets "Gentiana verna"
+  python3 scripts/flower_wiki.py --from-hartinger
+  ```
+- You can still fetch an individual species by Latin name:
+  ```bash
+  python3 scripts/flower_wiki.py "Gentiana verna"
   ```
 
-Both scripts rely on Wikimedia’s public APIs; make sure the machine running them has network access.
+**3. Download plate imagery**
+- `scripts/hartinger_download_images.py` pulls the plate JPGs referenced in the Hartinger JSON into `scripts/images`, using the Latin name as the filename.
+  ```bash
+  python3 scripts/hartinger_download_images.py
+  # skip already-downloaded files
+  python3 scripts/hartinger_download_images.py --skip-existing
+  ```
+
+**4. Import images into the asset catalog**
+- `scripts/add_images_to_assets.py` copies every JPG in `scripts/images` into `AlpenBlumen/assets/Assets.xcassets`, creating single-scale imagesets whose keys match the Latin names.
+  ```bash
+  python3 scripts/add_images_to_assets.py
+  ```
+
+After refreshing data and assets, rebuild the Xcode project so the new flowers appear in the app.
 
 ## License
 
