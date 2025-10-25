@@ -42,4 +42,4 @@ Language switching is handled by an environment-scoped `LanguageSettings` object
 
 ## License
 
-Distributed under the terms of the MIT License. See `LICENSE` for details.
+Distributed under the terms of the  GPL-3.0 license License. See `LICENSE` for details.
