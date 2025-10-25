@@ -18,6 +18,8 @@
 		B6939D0E2E814127001EA0D3 /* SystematicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6939D0D2E81411F001EA0D3 /* SystematicRow.swift */; };
 		B6939D102E817387001EA0D3 /* AlpenBlumen.json in Resources */ = {isa = PBXBuildFile; fileRef = B6939D0F2E81737D001EA0D3 /* AlpenBlumen.json */; };
 		B6939D122E817CC9001EA0D3 /* LanguageSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6939D112E817CBE001EA0D3 /* LanguageSettings.swift */; };
+		B6B229502EAD13820084C19A /* flower_wiki.py in Resources */ = {isa = PBXBuildFile; fileRef = B6B2294F2EAD13820084C19A /* flower_wiki.py */; };
+		B6B229532EAD15D00084C19A /* flower_image.py in Resources */ = {isa = PBXBuildFile; fileRef = B6B229512EAD15D00084C19A /* flower_image.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		B6939D0D2E81411F001EA0D3 /* SystematicRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystematicRow.swift; sourceTree = "<group>"; };
 		B6939D0F2E81737D001EA0D3 /* AlpenBlumen.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AlpenBlumen.json; sourceTree = "<group>"; };
 		B6939D112E817CBE001EA0D3 /* LanguageSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSettings.swift; sourceTree = "<group>"; };
+		B6B2294F2EAD13820084C19A /* flower_wiki.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = flower_wiki.py; sourceTree = "<group>"; };
+		B6B229512EAD15D00084C19A /* flower_image.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = flower_image.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 		B6939CD82E8130FC001EA0D3 = {
 			isa = PBXGroup;
 			children = (
+				B6B229522EAD15D00084C19A /* scripts */,
 				B6939CF62E813367001EA0D3 /* AlpenBlumen */,
 				B6939CE22E8130FC001EA0D3 /* Products */,
 			);
@@ -110,6 +115,15 @@
 				B6939CF22E813367001EA0D3 /* AlpenBlumenApp.swift */,
 			);
 			path = other;
+			sourceTree = "<group>";
+		};
+		B6B229522EAD15D00084C19A /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				B6B2294F2EAD13820084C19A /* flower_wiki.py */,
+				B6B229512EAD15D00084C19A /* flower_image.py */,
+			);
+			path = scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +189,8 @@
 			files = (
 				B6939D102E817387001EA0D3 /* AlpenBlumen.json in Resources */,
 				B6939CFA2E813367001EA0D3 /* Assets.xcassets in Resources */,
+				B6B229502EAD13820084C19A /* flower_wiki.py in Resources */,
+				B6B229532EAD15D00084C19A /* flower_image.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

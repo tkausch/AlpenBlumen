@@ -408,6 +408,22 @@
           "latin": "Campanula alpina",
           "family": "Campanulaceae",
           "genus": "Campanula"
+        },
+        {
+          "english": {
+            "name": "Alpine Rock-jasmine",
+            "description": "Androsace alpina, or Alpine rock-jasmine, forms tight cushion mats up to 20 cm across with overlapping leaf rosettes covered in fine glandular hairs that conserve water in exposed scree. It is endemic to the Alps, thriving on well-drained limestone or dolomite debris between 2,500 and 3,200 metres where the cushion growth creates a buffered microclimate. Source: Wikipedia."
+          },
+          "german": {
+            "name": "Alpen-Mannsschild",
+            "description": "Der Alpen-Mannsschild bildet dichte, kissenförmige Polster bis etwa 20 cm Durchmesser mit überlappenden Rosetten, deren feine Drüsenhaare Wasserverluste reduzieren. Er ist in den Alpen endemisch und besiedelt gut drainierte Kalk- oder Dolomitschutthalden zwischen 2.500 und 3.200 Metern, wo seine Wuchsform ein geschütztes Mikroklima schafft. Quelle: Wikipedia."
+          },
+          "french": {
+            "name": "Androsace des Alpes",
+            "description": "L'androsace des Alpes forme des coussins compacts atteignant 20 cm de diamètre, constitués de rosettes imbriquées couvertes de fins poils glanduleux qui limitent la perte d'eau. Elle est endémique des Alpes et colonise les éboulis calcaires ou dolomitiques bien drainés entre 2 500 et 3 200 mètres, où sa forme en coussin crée un microclimat protecteur. Source : Wikipédia."
+          },
+          "latin": "Androsace alpina",
+          "family": "Primulaceae",
+          "genus": "Androsace"
         }
 ]
- 
