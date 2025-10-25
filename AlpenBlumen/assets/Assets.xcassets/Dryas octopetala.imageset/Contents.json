@@ -1,8 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Screenshot 2025-09-22 at 22.04.50.png",
-      "idiom" : "universal"
+      "filename" : "Dryas octopetala.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {

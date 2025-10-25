@@ -18,8 +18,11 @@
 		B6939D0E2E814127001EA0D3 /* SystematicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6939D0D2E81411F001EA0D3 /* SystematicRow.swift */; };
 		B6939D102E817387001EA0D3 /* AlpenBlumen.json in Resources */ = {isa = PBXBuildFile; fileRef = B6939D0F2E81737D001EA0D3 /* AlpenBlumen.json */; };
 		B6939D122E817CC9001EA0D3 /* LanguageSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6939D112E817CBE001EA0D3 /* LanguageSettings.swift */; };
-		B6B229502EAD13820084C19A /* flower_wiki.py in Resources */ = {isa = PBXBuildFile; fileRef = B6B2294F2EAD13820084C19A /* flower_wiki.py */; };
-		B6B229532EAD15D00084C19A /* flower_image.py in Resources */ = {isa = PBXBuildFile; fileRef = B6B229512EAD15D00084C19A /* flower_image.py */; };
+		B6B229502EAD13820084C19A /* generate_alpen_blumen_data.py in Resources */ = {isa = PBXBuildFile; fileRef = B6B2294F2EAD13820084C19A /* generate_alpen_blumen_data.py */; };
+		B6B229572EAD1FF80084C19A /* hartinger_images.py in Resources */ = {isa = PBXBuildFile; fileRef = B6B229562EAD1FF80084C19A /* hartinger_images.py */; };
+		B6B229592EAD21100084C19A /* hartinger_download_images.py in Resources */ = {isa = PBXBuildFile; fileRef = B6B229582EAD21100084C19A /* hartinger_download_images.py */; };
+		B6B2295D2EAD50410084C19A /* hartinger.json in Resources */ = {isa = PBXBuildFile; fileRef = B6B2295B2EAD50410084C19A /* hartinger.json */; };
+		B6B229602EAD52510084C19A /* add_images_to_assets.py in Resources */ = {isa = PBXBuildFile; fileRef = B6B2295F2EAD52510084C19A /* add_images_to_assets.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +38,12 @@
 		B6939D0D2E81411F001EA0D3 /* SystematicRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystematicRow.swift; sourceTree = "<group>"; };
 		B6939D0F2E81737D001EA0D3 /* AlpenBlumen.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AlpenBlumen.json; sourceTree = "<group>"; };
 		B6939D112E817CBE001EA0D3 /* LanguageSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSettings.swift; sourceTree = "<group>"; };
-		B6B2294F2EAD13820084C19A /* flower_wiki.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = flower_wiki.py; sourceTree = "<group>"; };
-		B6B229512EAD15D00084C19A /* flower_image.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = flower_image.py; sourceTree = "<group>"; };
+		B6B2294F2EAD13820084C19A /* generate_alpen_blumen_data.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = generate_alpen_blumen_data.py; sourceTree = "<group>"; };
+		B6B229562EAD1FF80084C19A /* hartinger_images.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = hartinger_images.py; sourceTree = "<group>"; };
+		B6B229582EAD21100084C19A /* hartinger_download_images.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = hartinger_download_images.py; sourceTree = "<group>"; };
+		B6B2295A2EAD50410084C19A /* AlpenBlumen.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AlpenBlumen.json; sourceTree = "<group>"; };
+		B6B2295B2EAD50410084C19A /* hartinger.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hartinger.json; sourceTree = "<group>"; };
+		B6B2295F2EAD52510084C19A /* add_images_to_assets.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = add_images_to_assets.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,10 +127,22 @@
 		B6B229522EAD15D00084C19A /* scripts */ = {
 			isa = PBXGroup;
 			children = (
-				B6B2294F2EAD13820084C19A /* flower_wiki.py */,
-				B6B229512EAD15D00084C19A /* flower_image.py */,
+				B6B2295F2EAD52510084C19A /* add_images_to_assets.py */,
+				B6B2295C2EAD50410084C19A /* data */,
+				B6B229582EAD21100084C19A /* hartinger_download_images.py */,
+				B6B229562EAD1FF80084C19A /* hartinger_images.py */,
+				B6B2294F2EAD13820084C19A /* generate_alpen_blumen_data.py */,
 			);
 			path = scripts;
+			sourceTree = "<group>";
+		};
+		B6B2295C2EAD50410084C19A /* data */ = {
+			isa = PBXGroup;
+			children = (
+				B6B2295A2EAD50410084C19A /* AlpenBlumen.json */,
+				B6B2295B2EAD50410084C19A /* hartinger.json */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,10 +206,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B229602EAD52510084C19A /* add_images_to_assets.py in Resources */,
 				B6939D102E817387001EA0D3 /* AlpenBlumen.json in Resources */,
+				B6B2295D2EAD50410084C19A /* hartinger.json in Resources */,
 				B6939CFA2E813367001EA0D3 /* Assets.xcassets in Resources */,
-				B6B229502EAD13820084C19A /* flower_wiki.py in Resources */,
-				B6B229532EAD15D00084C19A /* flower_image.py in Resources */,
+				B6B229592EAD21100084C19A /* hartinger_download_images.py in Resources */,
+				B6B229502EAD13820084C19A /* generate_alpen_blumen_data.py in Resources */,
+				B6B229572EAD1FF80084C19A /* hartinger_images.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
